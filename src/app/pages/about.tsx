@@ -46,23 +46,18 @@ export function AboutPage() {
   return (
     <>
       {/* Hero Banner */}
-      <section className="relative w-full bg-gray-50 border-b border-gray-200 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 opacity-15" style={{
-          background: 'linear-gradient(135deg, #66cc66, #00cc99)',
-          filter: 'blur(120px)',
-        }} />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#3333cc] opacity-10" style={{
-          filter: 'blur(120px)',
-        }} />
-
+      <section
+        className="relative w-full border-b border-gray-200 overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #66cc66, #33cc66, #00cc99)' }}
+      >
         <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-28 text-center">
-          <p className="text-sm uppercase tracking-wider text-gray-500 mb-4">
-            About <span className="text-[#66cc66]">MarGav</span> <span className="text-[#3333cc]">Energy</span>
+          <p className="text-sm uppercase tracking-wider text-white/70 mb-4">
+            About MarGav Energy
           </p>
-          <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 max-w-3xl mx-auto">
+          <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 max-w-3xl mx-auto">
             Powering Homes. Building Trust.
           </h1>
-          <p className="text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg lg:text-xl text-white/80 max-w-2xl mx-auto">
             We're a Staffordshire-based renewable energy company on a mission to make every UK
             home more efficient, comfortable, and sustainable.
           </p>
